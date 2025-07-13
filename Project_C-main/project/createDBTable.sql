@@ -1,0 +1,11 @@
+
+
+CREATE TABLE User (
+    id INT(111) AUTO_INCREMENT PRIMARY KEY,
+    userid VARCHAR(50) UNIQUE NOT NULL,
+    dormitoryroom VARCHAR(50) NOT NULL,
+    name VARCHAR(50) NOT NULL,
+    password VARCHAR(250) NOT NULL,
+    phonenumber VARCHAR(50) UNIQUE NOT NULL,
+    email VARCHAR(50) UNIQUE NOT NULL
+);
